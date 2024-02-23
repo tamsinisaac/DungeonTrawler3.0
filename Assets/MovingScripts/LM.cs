@@ -8,7 +8,7 @@ public class LM : MonoBehaviour
     public GameObject Diamond;
     private void OnTriggerEnter(Collider other)
     {
-        if (Diamond != null)
+        if (Diamond == null)
 
         if (other.gameObject.CompareTag("Stairs"))
             {

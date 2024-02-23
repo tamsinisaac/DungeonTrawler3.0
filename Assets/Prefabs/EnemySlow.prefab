@@ -109,9 +109,9 @@ MonoBehaviour:
   walkPointRange: 5
   timeBetweenAttacks: 0.5
   sightRange: 20
-  attackRange: 12
+  attackRange: 20
   playerInSightRange: 1
-  playerInAttackRange: 0
+  playerInAttackRange: 1
 --- !u!195 &439512616720877761
 NavMeshAgent:
   m_ObjectHideFlags: 0

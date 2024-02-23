@@ -90,7 +90,7 @@ public class EM : MonoBehaviour
 
         if(!alreadyAttacked)
         {
-            ///attack code here when made
+            ///attack code here when made(decided not to create attacks this time)
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
